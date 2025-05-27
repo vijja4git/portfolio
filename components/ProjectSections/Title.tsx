@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
+import { motion, MotionValue } from 'framer-motion';
 
 interface ProjectTitleProps {
   title: string;
   expanded: boolean;
-  titleSize: any;
+  titleSize: MotionValue<string> | string;
 }
 
 export function ProjectTitle({ title, expanded, titleSize }: ProjectTitleProps) {
