@@ -1,8 +1,9 @@
 import '../styles/globals.css';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ThemeProvider } from 'next-themes';
+import type { AppProps } from 'next/app';
 
-export default function App({ Component, pageProps, router }) {
+export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <ThemeProvider attribute="class">
       <AnimatePresence mode="wait">
