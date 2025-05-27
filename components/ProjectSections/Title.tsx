@@ -1,5 +1,4 @@
-import { motion } from 'framer-motion';
-import { MotionValue } from 'framer-motion';
+import { motion, MotionValue } from 'framer-motion';
 
 interface ProjectTitleProps {
   title: string;
@@ -8,10 +7,14 @@ interface ProjectTitleProps {
 }
 
 export function ProjectTitle({ title, expanded, titleSize }: ProjectTitleProps) {
+  // Convert MotionValue to string if needed
+  const resolvedFontSize =
+    typeof titleSize === 'string' ? titleSize : titleSize.get();
+
   return (
     <motion.h3
       layout
-      style={{ fontSize: expanded ? titleSize : '1.5rem' }}
+      style={{ fontSize: resolvedFontSize }}
       className="font-bold text-blue-300 mb-2"
     >
       {title}
