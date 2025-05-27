@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url('/noise.png');
+  background-repeat: repeat;
+}
+@layer utilities {
+  .neon-text {
+    text-shadow:
+      0 0 4px #0ff,
+      0 0 8px #0ff,
+      0 0 16px #0ff,
+      0 0 32px #0ff;
+  }
+}
