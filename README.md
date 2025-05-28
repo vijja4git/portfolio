@@ -1,4 +1,4 @@
-Link to preview the project: [portfolio-hlnqdrenh-vijja4gits-projects.vercel.app](https://vercel.com/vijja4gits-projects/portfolio/4GC4c8mrpT5dqbp5JJpi7ZwDYNcS#:~:text=portfolio%2Drho%2Dpearl%2D53.vercel.app)
+Link to preview the project: https://portfolio-rho-pearl-53.vercel.app/
 
 
 
